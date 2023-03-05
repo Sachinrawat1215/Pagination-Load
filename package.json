@@ -6,6 +6,7 @@
   "proxy": "http://localhost:8000",
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "server": "nodemon server/server.js",
     "app": "react-scripts start & node server/server.js",
     "dev": "react-scripts start & nodemon server/server.js"
